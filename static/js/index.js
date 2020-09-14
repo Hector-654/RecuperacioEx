@@ -78,9 +78,9 @@ function resta(){
 
   // called when a message arrives
   function onMessageArrived(message) {
-	ad=(message.payloadString);
-	console.log(ad)
-	document.getElementById("respuesta").innerHTML = ad;
+	text=(message.payloadString);
+	console.log(text)
+	document.getElementById("res2").innerHTML = text;
 	
 	
 	
